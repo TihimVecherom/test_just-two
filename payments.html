@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Платежі</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220507223320">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+
+			</div>
+		</header>
+		<main class="page">
+			<div class="products">
+				<div class="products__container">
+					<a href="authorization.html" class="products__exit-button">
+						<div class="exit-button-icon"></div>
+						<div class="exit-button-text">Exit</div>
+					</a>
+					<div class="products__condition">
+						<div class="products__condition-card"></div>
+						<div class="products__condition-bluetooth"></div>
+						<div class="products__condition-cable"></div>
+						<div class="products__condition-phone"></div>
+						<div class="products__condition-off"></div>
+					</div>
+
+					<div class="products__text">Здійснення оплати</div>
+					<div class="products__paragraf">Пошук товарів/послуг:</div>
+					<div class="products__content">
+
+						<div id="blur" class="products__popap"></div>
+
+
+						<div class="products__search">
+							<input autocomplete="off" type="search" name="form[]" data-error="Ошибка" placeholder="К..." class="input">
+							<a href="#" class="products__search-foto"></a>
+						</div>
+						<div class="products__menu-block">
+							<div class="products__menu">
+								<div class="products__picture picture-ibg">
+									<picture><source srcset="img/products/content/cofe.webp" type="image/webp"><img class="img" src="img/products/content/cofe.png" alt="Кофе"></picture>
+								</div>
+								<div class="products__menu-text">
+									<div class="products__name">Кава “Еспресо”</div>
+									<div class="products__amount">
+										<div class="products__amount-text">Кількість:</div>
+										<div class="quantity">
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+
+										</div>
+										<div class="products__amount-price">60.00 грн.</div>
+									</div>
+								</div>
+								<div class="products__button-block">
+									<input type="checkbox" id="checkboxOne" value="Rainbow Dash">
+									<label class="products__button" for="checkboxOne">У кошик</label>
+								</div>
+							</div>
+							<div class="products__menu">
+								<div class="products__picture picture-ibg">
+									<picture><source srcset="img/products/content/capuchino.webp" type="image/webp"><img class="img" src="img/products/content/capuchino.png" alt="Кофе"></picture>
+								</div>
+								<div class="products__menu-text">
+									<div class="products__name">Кава “Еспресо”</div>
+									<div class="products__amount">
+										<div class="products__amount-text">Кількість:</div>
+										<div class="quantity">
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+
+										</div>
+										<div class="products__amount-price">15.00 грн.</div>
+									</div>
+								</div>
+
+								<div class="products__button-block">
+									<input type="checkbox" id="checkboxTwo" value="Rainbow Dash">
+									<label class="products__button" for="checkboxTwo">У кошик</label>
+								</div>
+							</div>
+							<div class="products__menu">
+								<div class="products__picture picture-ibg">
+									<picture><source srcset="img/products/content/croissant.webp" type="image/webp"><img class="img" src="img/products/content/croissant.png" alt="Кофе"></picture>
+								</div>
+								<div class="products__menu-text">
+									<div class="products__name">Кава “Еспресо”</div>
+									<div class="products__amount">
+										<div class="products__amount-text">Кількість:</div>
+										<div class="quantity">
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+
+										</div>
+										<div class="products__amount-price">20.00 грн.</div>
+									</div>
+								</div>
+								<div class="products__button-block">
+									<input type="checkbox" id="checkboxThree" value="Rainbow Dash">
+									<label class="products__button" for="checkboxThree">У кошик</label>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="products__synchronization">Синхронізувати каталог</a>
+
+
+
+						<div data-spollers class="spollers purse">
+							<div class="spollers__item ">
+
+								<button type="button" data-spoller class="spollers__title purse__container">
+									<div class="purse__text">Кошик:</div>
+									<div class="purse__button-block">
+										<div class="purse__sum">00.0</div>
+										<a href="payments-cash-card.html" class="purse__button" for="purse">Сплатити</a>
+									</div>
+
+								</button>
+
+								<div class="spollers__body">
+									<div class="purse__list">
+										<div class="purse__item">
+											<div class="purse__item-text">Кава “Лате з вершками”</div>
+											<div class="purse__item-block">
+												<div class="purse__item-prace">15.00</div>
+												<div class="quantity">
+													<button type="button" class="quantity__button quantity__button_minus minus-button-margin-right minus-button-margin"></button>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1">
+													</div>
+													<button type="button" class="quantity__button quantity__button_plus plus-button-margin-left plus-button-margin"></button>
+												</div>
+											</div>
+										</div>
+										<div class="purse__item">
+											<div class="purse__item-text">Круасан з вишнею </div>
+											<div class="purse__item-block">
+												<div class="purse__item-prace">20.00</div>
+												<div class="quantity">
+													<button type="button" class="quantity__button quantity__button_minus minus-button-margin "></button>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1">
+													</div>
+													<button type="button" class="quantity__button quantity__button_plus plus-button-margin "></button>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="down__menu">
+					<div class="down__menu-body">
+						<a href="P2P.html" class="down__menu-list">
+							<div class="down__menu-item item-img-one"></div>
+							<div class="down__menu-item-text">Р2Р</div>
+						</a>
+						<a href="payments.html" class="down__menu-list">
+							<div class="down__menu-item item-img-two item-img-two-payments"></div>
+							<div class="down__menu-item-text item-img-two-color">Платежі</div>
+						</a>
+						<a href="#" class="down__menu-list">
+							<div class="down__menu-item item-img-three"></div>
+							<div class="down__menu-item-text">Налаштування</div>
+						</a>
+						<a href="#" class="down__menu-list">
+							<div class="down__menu-item item-img-four"></div>
+							<div class="down__menu-item-text">Транзакції</div>
+						</a>
+						<a href="more.html" class="down__menu-list">
+							<div class="down__menu-item item-img-five"></div>
+							<div class="down__menu-item-text">Більше</div>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+
+		</main>
+
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220507223320"></script>
+</body>
+
+</html>
